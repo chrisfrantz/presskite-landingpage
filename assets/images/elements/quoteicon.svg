@@ -1,0 +1,20 @@
+<svg width="64" height="46" viewBox="0 0 64 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>quoteicon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7265 1459)">
+<g id="quoteicon">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(7265 -1459)" fill="#FFFFFF"/>
+<use xlink:href="#path1_fill" transform="translate(7265 -1459)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(7301.76 -1459)" fill="#FFFFFF"/>
+<use xlink:href="#path1_fill" transform="translate(7301.76 -1459)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 22.5818C 0 20.2722 1.93606 18.3999 4.3243 18.3999L 22.9188 18.3999C 25.3071 18.3999 27.2431 20.2722 27.2431 22.5818L 27.2431 41.8182C 27.2431 44.1277 25.3071 46 22.9188 46L 4.3243 46C 1.93606 46 0 44.1277 0 41.8182L 0 22.5818Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 23.5616 7.00739C 14.6154 7.00739 7.36301 13.9095 7.36301 22.4236C 7.36301 24.3587 5.71474 25.9273 3.6815 25.9273C 1.64827 25.9273 0 24.3587 0 22.4236C 0 10.0394 10.5489 0 23.5616 0C 25.5949 0 27.2431 1.56866 27.2431 3.50369C 27.2431 5.43873 25.5949 7.00739 23.5616 7.00739Z"/>
+</defs>
+</svg>

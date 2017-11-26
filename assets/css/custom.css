@@ -1,0 +1,295 @@
+/* Template CSS */
+
+    .masthead.segment {
+      min-height: 700px;
+      padding: 1em 0em;
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+    .masthead h1.ui.header {
+      font-size: 4em;
+    }
+    .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+    }
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+
+    .quote.stripe.segment {
+      padding: 0em;
+    }
+    .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .footer.segment {
+      padding: 5em 0em;
+    }
+
+
+    /* Breakpoints CSS */
+
+    @media only screen and (max-width: 414px) {
+      .ui.menu.three.item .item {
+        width: 43.333%;
+      }
+      .ui.button.signup {
+          padding: 14px;
+      }
+      .ui.button.login {
+          padding: 0px;
+      }
+      .ui.header.hello {
+          font-size: 3em !important;
+      }
+      .ui.masthead.container {
+          margin-top: 100px;
+      }
+      .ui.centered.card.nohover {
+          margin-bottom: 10px;
+      }
+      .ui.image.centered {
+          width: 100% !important;
+      }
+      .ui.text.container {
+          padding-bottom: 20px;
+      }
+      .hidden.divider:not(.smallfooter) {
+        display: none;
+      }
+      .ui.four.wide.column.bottomlogo {
+        display:none;
+      }
+      .subline {
+        display: none;
+      }
+    }
+
+
+
+
+          /* Custom CSS */
+
+      body.pushable > .pusher {
+          background: url(..//images/elements/background.svg) top right no-repeat;
+          background-size: cover;
+      }
+
+      body.pushable {
+        background: white !important;
+        /*background: linear-gradient(113.75deg, #EEF3FF -27.27%, #FFFFFF 44.84%) !important; Make this not repeat*/
+
+      }
+      .ui.left.floated.item.logo {
+          justify-content: left;
+      }
+      .menu {
+        background-color: transparent;
+        border: none !important;
+        box-shadow: none !important;
+      }
+
+      .ui.menu .item::before {
+          background:none;
+      }
+
+      .header,.button {
+        font-family: Montserrat !important;
+      }
+
+      .ui.secondary.pointing.menu {
+          border: none;
+      }
+
+      .ui.vertical.segment {
+          border-bottom: none;
+      }
+
+      .ui.header.maincta {
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          color: #181A6F;
+
+      }
+
+      .ui.header.hello {
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          color: #181A6F;
+
+      }
+
+      .highlight {
+        color: #181A6F;
+      }
+
+
+      .ui.header.secondarycta {
+          font-style: normal;
+          font-weight: 500;
+          font-variant: small-caps;
+          color: #8B98B8;
+      }
+
+
+      .ui.huge.primary.button {
+          background: #FF6B6B;
+          box-shadow: 0px 5px 30px #DFC4C4;
+          border-radius: 500px;
+      }
+
+      .ui.huge.primary.button:hover, .ui.button.signup:hover {
+          transition: .2s;
+          box-shadow: 0px 0px 10px #DFC4C4;
+      }
+
+
+      .ui.huge.secondary.button {
+        background: #FFFFFF;
+        box-shadow: 0px 5px 30px #FFFFFF;
+        border-radius: 500px;
+        color: #181A6F;
+      }
+
+      .ui.huge.secondary.button:hover {
+          transition: .2s;
+          box-shadow: 0px 0px 10px #FFFFFF;
+      }
+
+      .ui.button.signup {
+          background: #FF6B6B;
+          box-shadow: 0px 5px 30px #DFC4C4;
+          border-radius: 100px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          font-size: 13px;
+          color: #FFFFFF;
+      }
+
+      .ui.button.login {
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          font-size: 15px;
+          color: #f5ffff;
+          background:none;
+          text-shadow: rgba(105, 105, 105, 0.46) 0px 0px 5px;
+      }
+
+      .ui.container {
+          text-align: left;
+      }
+
+      .ui.centered.card {
+          background: #FFFFFF;
+          box-shadow: 0px 30px 100px #E9EEF7;
+          border-radius: 10px;
+      }
+
+      .ui.centered.card, .cardicons {
+        margin: 0 auto;
+        padding: 25px;
+      }
+
+      .ui.hidden.divider.small {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .ui.hidden.divider {
+        padding-top: 125px;
+        padding-bottom: 125px;
+      }
+
+      .layout {
+        box-shadow: 0px 30px 100px #E9EEF7;
+        border-radius: 10px;
+      }
+
+      .ui.relaxed.list {
+        text-align: left;
+      }
+
+      p.header {
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-variant: small-caps;
+        padding-bottom: 20px;
+      }
+
+      .masthead {
+        margin-top: 15em;
+      }
+
+      .testimonial {
+        color: #515FA9 !important;
+        text-align: left; 
+      }
+
+      #testimonial-person p{
+        text-align: left; 
+        padding-top: 0px;
+        margin-bottom: 0px;
+        font-size: .9em;
+      }
+
+      #name {
+        color: #40455a;
+        margin-top: 15px;
+      }
+
+
+      .avatar {
+        margin-top: 10px;
+      }
+
+      .ui.list .list > .item > .content, .ui.list > .item > .content {
+          padding-left: 50px;
+          padding-right: 30px;
+      }
+
+      .feature-title {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          font-size: 18px;
+          font-variant: small-caps;
+          padding-bottom: 5px !important;
+      }
+
+      .description {
+        color: #8E9BCA !important;
+        font-style: normal;
+        line-height: 20px;
+      }
+
+      /* Sorry super hacky overrides here */
+      .nohover{
+          pointer-events: none;
+      }

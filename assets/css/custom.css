@@ -92,7 +92,7 @@
 /* Custom CSS */
 
 body.pushable > .pusher {
-  background: url(..//images/elements/background.svg) top right no-repeat;
+  background: url(../images/elements/background.svg) top right no-repeat;
   background-size: cover;
 }
 

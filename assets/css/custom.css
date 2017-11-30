@@ -58,7 +58,7 @@
     padding: 14px;
   }
   .ui.button.login {
-    padding: 0px;
+    padding: 10px;
   }
   .ui.header.hello {
     font-size: 3em !important;
@@ -154,6 +154,11 @@ body.pushable {
   color: #8B98B8;
 }
 
+.ui.header.secondarycta.subline.white.label {
+    padding-left: 9px;
+    padding-bottom: 0px;
+}
+
 
 .ui.huge.primary.button {
   background: #FF6B6B;
@@ -243,7 +248,7 @@ p.header {
 }
 
 .masthead {
-  margin-top: 15em;
+  margin-top: 10em;
 }
 
 .testimonial {
